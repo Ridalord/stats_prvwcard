@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+p {
+    font-family: 'Lexen Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75)
+}
+body {
+    background-color: hsl(233, 47%, 7%);
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca' , sans-serif;
+    text-align: center;
+    padding: 80px 23px;
+}
+.wrapper {
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+.wrapper div.imghdr {
+    width: 329px;
+    height: 242px;
+    border-radius: 8px 8px 0 0;
+    box-shadow: inset 0 0 0 150px hsla(277, 88%, 25%, 0.727);
+    background-image: url(./images/image-header-mobile.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.wrapper div.cntnts {
+    padding: 40px 39px 10px ;
+}
+.wrapper div.cntnts h1 {
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+.wrapper div.cntnts p {
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+.wrapper div.cntnts h1 span {
+    color: hsl(277, 64%, 61%);
+}
+.wrapper div.cntnts ul {
+    list-style: none;
+}
+.wrapper div.cntnts ul li {
+    margin-bottom: 25px;
+}
+.wrapper div.cntnts ul li h1 {
+    margin-bottom: 0;
+    line-height: 35px;
+    font-size: 1.6em;
+    color: hsl(0, 0%, 100%);
+}
+.wrapper div.cntnts ul li p {
+    margin-bottom: 0;
+    line-height: 25px;
+    color:  hsla(0, 0%, 100%, 0.6);
+    font-size: smaller;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 5px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
