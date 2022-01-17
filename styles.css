@@ -3,11 +3,11 @@
     margin: 0;
 }
 h1 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Lexen Deca', sans-serif;
     color: hsl(0, 0%, 100%);
 }
 p {
-    font-family: 'Lexen Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: hsla(0, 0%, 100%, 0.75)
 }
 body {
@@ -23,7 +23,7 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     margin: 0 auto;
-
+    background-color: ;
 }
 .wrapper div.imghdr {
     width: 329px;
