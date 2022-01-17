@@ -23,7 +23,6 @@ body {
     border-radius: 5px;
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: ;
 }
 .wrapper div.imghdr {
     width: 100%;
@@ -33,7 +32,7 @@ body {
     background-image: url(./images/image-header-mobile.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
 }
 .wrapper div.cntnts {
     padding: 40px 39px 10px ;
